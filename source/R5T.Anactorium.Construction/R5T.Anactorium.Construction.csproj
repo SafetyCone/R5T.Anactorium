@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj" />
     <ProjectReference Include="..\R5T.Anactorium\R5T.Anactorium.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ExampleAuthentications.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <PropertyGroup>
