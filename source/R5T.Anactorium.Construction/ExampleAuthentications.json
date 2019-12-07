@@ -1,0 +1,14 @@
+﻿{
+  "DatabaseServerAuthentications": {
+    "DatabaseServerAuthenticationsByAuthenticationName": {
+      "First": {
+        "Username": "First's Username",
+        "Password": "First's Password"
+      },
+      "Second": {
+        "Username": "Second's Username",
+        "Password": "Second's Password"
+      }
+    }
+  }
+}
